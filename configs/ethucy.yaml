@@ -1,0 +1,20 @@
+num_layers: 1
+num_heads: 4
+model_dim: 64
+hidden_dim: 128
+decoder_hidden_dim: 128
+dropout: 0.1
+sample_k: 20
+device: cuda
+num_moe_layers: 3
+moe_hidden_dim: 128
+num_experts: 2
+top_p: 0.5
+noise_epsilon: 1e-2
+load_balance_weight: 0.2
+noise_dim: 16
+num_virtual_nodes: 3
+past_length: 8
+future_length: 12
+inputs: ['vel_x', 'vel_y']
+pred_rel: True
