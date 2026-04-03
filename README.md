@@ -14,35 +14,24 @@ Pedestrian trajectory prediction is critical for ensuring safety in autonomous d
 #### Steps
 1. Clone the project into a local machine：
    ```bash
-   git clone https://github.com/Carrotsniper/UniEdge.git
+   git clone https://github.com/Carrotsniper/ViTE.git
    ```
-2. Enter the project and unzip dataset files：
+2. Run testing：
    ```bash
-   cd UniEdge
-   unzip dataset.zip
+   python main.py
    ```
-3. Install environments：
-   ```bash
-   conda env create -f environment.yaml
-   ```
-4. Run testing：
-   ```bash
-   python test.py
-   ```
-
-### Acknowledgement
-Part of our code is borrowed from [DDL](https://github.com/sydney-machine-learning/pedestrianpathprediction), [GP-GRAPH](https://github.com/InhwanBae/GPGraph), [iTransformer](https://github.com/thuml/iTransformer), 
-[CaST](https://github.com/yutong-xia/CaST), [GATv2](https://github.com/tech-srl/how_attentive_are_gats). We thank the authors for releasing their code and models.
 
 ## Cite this Work
 
 If this work is useful, please consider citing the paper, and/or mentioning this repository:
 ```bibtex
-@article{li2025uniedge,
-  title={Unified Spatial-Temporal Edge-Enhanced Graph Networks for Pedestrian Trajectory Prediction},
-  author={Li, Ruochen and Qiao, Tanqiu and Katsigiannis, Stamos and Zhu, Zhanxing and Shum, Hubert PH},
-  journal={IEEE Transactions on Circuits and Systems for Video Technology},
-  year={2025},
-  publisher={IEEE}
+@inproceedings{li2026vite,
+  title={ViTE: Virtual Graph Trajectory Expert Router for Pedestrian Trajectory Prediction},
+  author={Li, Ruochen and Zhu, Zhanxing and Qiao, Tanqiu and Shum, Hubert PH},
+  booktitle={AAAI},
+  volume={40},
+  number={21},
+  pages={17535--17543},
+  year={2026}
 }
 ```
